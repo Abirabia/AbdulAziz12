@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Abdul Aziz Bhuiyan</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #83a4d4, #b6fbff);
+            color: #333;
+        }
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        a.button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #555;
+            background: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="your-photo.jpg" alt="Abdul Aziz Bhuiyan">
+        <h1>Abdul Aziz Bhuiyan</h1>
+        <p>Welcome to my personal website! I'm passionate about learning, technology, and making a difference.</p>
+        <a class="button" href="mailto:your.email@example.com">Contact Me</a>
+    </header>
+
+    <footer>
+        © 2025 Abdul Aziz Bhuiyan | All rights reserved
+    </footer>
+
+</body>
+</html>
